@@ -1,12 +1,12 @@
 // utils/config-negocio.js - VERSIÓN MULTI-TENANT CORREGIDA
-// CLIENTE: Natural Glam by Sheila Sanguily 
+// CLIENTE: DBELLA
 
 console.log('🏢 config-negocio.js cargado');
 
 // ============================================
 // 🔥 CONFIGURACIÓN POR CLIENTE - ¡LO ÚNICO QUE CAMBIA!
 // ============================================
-const NEGOCIO_ID_POR_DEFECTO = '294a6d36-b32d-4a53-9178-b63bda09ac73'; // ID de Natural Glam by Sheila Sanguily 
+const NEGOCIO_ID_POR_DEFECTO = '20c29c00-190b-4d01-8c4d-e8be6b18a809'; // ID de DBELLA
 
 // Hacer accesible globalmente
 window.NEGOCIO_ID_POR_DEFECTO = NEGOCIO_ID_POR_DEFECTO;
@@ -116,7 +116,7 @@ window.cargarConfiguracionNegocio = async function(forceRefresh = false) {
  */
 window.getNombreNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.nombre || 'Natural Glam by Sheila Sanguily ';
+    return config?.nombre || 'DBELLA';
 };
 
 /**
@@ -124,7 +124,7 @@ window.getNombreNegocio = async function() {
  */
 window.getTelefonoDuenno = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.telefono || '54546914';
+    return config?.telefono || '58535887';
 };
 
 /**
@@ -132,7 +132,7 @@ window.getTelefonoDuenno = async function() {
  */
 window.getEmailNegocio = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.email || 'sheilitasr00@gmail.com';
+    return config?.email || 'aitanadglez1999@gmail.com';
 };
 
 /**
@@ -164,7 +164,7 @@ window.getHorarioAtencion = async function() {
  */
 window.getMensajeBienvenida = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.mensaje_bienvenida || '¡Bienvenida a Natural Glam by Sheila Sanguily !';
+    return config?.mensaje_bienvenida || '¡Bienvenida a DBELLA!';
 };
 
 /**
@@ -180,7 +180,7 @@ window.getMensajeConfirmacion = async function() {
  */
 window.getNtfyTopic = async function() {
     const config = await window.cargarConfiguracionNegocio();
-    return config?.ntfy_topic || 'naturalglambysheilasanguily';
+    return config?.ntfy_topic || 'dbella';
 };
 
 /**
@@ -205,5 +205,5 @@ setTimeout(async () => {
     await window.cargarConfiguracionNegocio();
 }, 500);
 
-console.log('✅ config-negocio.js listo para Natural Glam by Sheila Sanguily ');
+console.log('✅ config-negocio.js listo para DBELLA');
 console.log('🏷️  ID configurado:', NEGOCIO_ID_POR_DEFECTO);

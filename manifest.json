@@ -1,20 +1,20 @@
 {
-  "name": "Natural Glam by Sheila Sanguily ",
-  "short_name": "Natural",
+  "name": "DBELLA",
+  "short_name": "DBELLA",
   "description": "Uñas y belleza - Tu espacio de cuidado personal",
-  "start_url": "/naturalglambysheilasanguily/",
-  "scope": "/naturalglambysheilasanguily/",
+  "start_url": "/dbella/",
+  "scope": "/dbella/",
   "display": "standalone",
   "background_color": "#ec4899",
   "theme_color": "#ec4899",
   "icons": [
     {
-      "src": "/naturalglambysheilasanguily/icons/icon-192x192.png",
+      "src": "/dbella/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/naturalglambysheilasanguily/icons/icon-512x512.png",
+      "src": "/dbella/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
